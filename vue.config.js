@@ -1,5 +1,5 @@
 const { defineConfig } = require("@vue/cli-service");
-const path = require("path"); // Not importing the builtin-path module was causing your build failure.
+const path = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const { DefinePlugin } = require("webpack");
 
